@@ -10,13 +10,13 @@
     <link rel="icon" type="image/x-icon" sizes="20x20" href="assets/images/icon/favicon.png">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-5.3.0.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/bootstrap-5.3.0.min.css' }}">
     <!-- fonts & icon -->
-    <link rel="stylesheet" type="text/css" href="assets/css/remixicon.css">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/remixicon.css' }}">
     <!-- Plugin -->
-    <link rel="stylesheet" type="text/css" href="assets/css/plugin.css">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/plugin.css' }}">
     <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main-style.css">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main-style.css' }}">
     <!-- RTL CSS::When Need RTL Uncomments File -->
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/rtl.css"> -->
 </head>
@@ -33,13 +33,15 @@
                                 <div class="header-left d-flex align-items-center justify-content-between">
                                     <!-- Logo-->
                                     <div class="logo logo-large light-logo">
-                                        <a href="{{ route('home') }}"><img src="assets/images/logo/Logo-charitfix.png"
-                                                alt="logo"></a>
+                                        <a href="{{ route('home') }}"><img
+                                                src="{{ asset('/assets/images/logo/logo.jpg') }}" alt="logo"
+                                                width="200">
+                                        </a>
                                     </div>
                                     <!-- Logo Mobile-->
                                     <div class="logo logo-mobile light-logo">
-                                        <a href="{{ route('home') }}"><img src="assets/images/icon/favicon.png"
-                                                alt="img"></a>
+                                        <a href="{{ route('home') }}"><img
+                                                src="{{ asset('/assets/images/icon/favicon.ico') }}" alt="img"></a>
                                     </div>
                                 </div>
                                 <!-- Main-menu for desktop -->
@@ -82,7 +84,8 @@
                             <div class="header-left d-flex align-items-center justify-content-between">
                                 <!-- Logo-->
                                 <div class="logo">
-                                    <a href="{{ route('home') }}"><img src="assets/images/logo/dark.png" alt="logo"></a>
+                                    <a href="{{ route('home') }}"><img src="{{ " /assets/images/logo/logo.jpg" }}"
+                                            width="100" alt="logo"></a>
                                 </div>
                             </div>
                             <!-- Footer-menu -->
@@ -172,13 +175,14 @@
     <!-- Add an overlay element -->
     <div class="overlay"></div>
     <!-- jquery-->
-    <script src="assets/js/jquery-3.7.0.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
+    <script src="{{ '/assets/js/jquery-3.7.0.min.js' }}"></script>
+    <script src="{{ '/assets/js/popper.min.js' }}"></script>
     <script src="assets/js/bootstrap-5.3.0.min.js"></script>
     <!-- Plugin -->
-    <script src="assets/js/plugin.js"></script>
+    <script src="{{ '/assets/js/plugin.js' }}"></script>
     <!-- Main js-->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ '/assets/js/main.js' }}"></script>
 </body>
+
 
 </html>

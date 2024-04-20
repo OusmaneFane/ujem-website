@@ -15,43 +15,16 @@
                             </h1>
                             <p class="pera wow fadeInUp" data-wow-delay="0.3s">LA FORCE DE LA JEUNESSE,L'AVENIR DE LA
                                 NATION</p>
-                            <div class="d-flex gap-20 flex-wrap">
-                                <a href="donation.html" class="btn-primary-fill hero-btn wow fadeInLeft"
-                                    data-wow-delay="0.4s">Donate Now</a>
-                                <a href="volunteer.html" class="btn-tertiary-fill hero-btn wow fadeInRight"
-                                    data-wow-delay="0.4s">Join Volunteers</a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6">
-                        <div class="d-flex gap-44">
+                        <div class="d-flex">
                             <div class="hero-image position-relative d-none d-lg-block">
-                                <img src="assets/images/hero/hero-1.png" alt="img"
-                                    class="w-100 tilt-effect wow fadeInUp" data-wow-delay="0.1s">
+                                <img src="{{ 'assets/images/img/img1.jpg' }}" alt="img"
+                                    class=" w-100 tilt-effect wow fadeInUp" data-wow-delay="0.1s">
                             </div>
-                            <div class="hero-count-section flex flex-column gap-60">
-                                <div class="hero-count wow fadeInUp" data-wow-delay="0.0s">
-                                    <h4 class="title">12+</h4>
-                                    <p class="pera">
-                                        Years of <br>
-                                        Experience
-                                    </p>
-                                </div>
-                                <div class="hero-count wow fadeInUp" data-wow-delay="0.2s">
-                                    <h4 class="title">140+</h4>
-                                    <p class="pera">
-                                        Thousands <br>
-                                        volunteers
-                                    </p>
-                                </div>
-                                <div class="hero-count  wow fadeInUp" data-wow-delay="0.3s">
-                                    <h4 class="title">500+</h4>
-                                    <p class="pera">
-                                        Worid wide <br>
-                                        Offices
-                                    </p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -127,151 +100,24 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xxl-7 col-xl-8 col-lg-8 p-0 urgent-area-slide xs-p-12">
+                <div class="col-xxl-12 col-xl-8 col-lg-12 p-5 urgent-area-slide xs-p-8">
                     <!-- Single Slider-->
                     <div class="image-container position-relative h-100">
-                        <img class="w-100 h-100" src="assets/images/gallery/urgent-1.png" alt="img">
-                        <div class="image-overlay-text">
-                            <div class="flex gap-20 mb-10">
-                                <div class="edu flex gap-10">
-                                    <i class="ri-file-3-line"></i>
-                                    <p class="pera">Education</p>
-                                </div>
-                                <div class="map flex gap-10">
-                                    <i class="ri-map-pin-line"></i>
-                                    <p class="pera">Africa</p>
-                                </div>
-                            </div>
-                            <div class="overlay-title">
-                                <h4 class="title max-w-567">
-                                    Help differently abled children So
-                                    feel confident
-                                </h4>
-                            </div>
-                        </div>
+                        <img class="w-100 h-100" src="{{ '/assets/images/img/img2.jpg' }}" alt="img">
+
                     </div>
                     <!-- Single Slider-->
                     <div class="image-container position-relative h-100">
-                        <img class="w-100 h-100" src="assets/images/gallery/urgent-1.png" alt="img">
-                        <div class="image-overlay-text">
-                            <div class="flex gap-20 mb-16">
-                                <div class="edu flex gap-10">
-                                    <i class="ri-file-3-line"></i>
-                                    <p class="pera">Education</p>
-                                </div>
-                                <div class="map flex gap-10">
-                                    <i class="ri-map-pin-line"></i>
-                                    <p class="pera">Africa</p>
-                                </div>
-                            </div>
-                            <div class="overlay-title">
-                                <h4 class="title max-w-567">
-                                    Help differently abled children So
-                                    feel confident
-                                </h4>
-                            </div>
-                        </div>
+                        <img class="w-100 h-100" src="{{ '/assets/images/img/img3.jpg' }}" alt="img">
+
                     </div>
                     <!-- Single Slider -->
                     <div class="image-container position-relative h-100">
-                        <img class="w-100 h-100" src="assets/images/gallery/urgent-1.png" alt="img">
-                        <div class="image-overlay-text">
-                            <div class="flex gap-20 mb-16">
-                                <div class="edu flex gap-10">
-                                    <i class="ri-file-3-line"></i>
-                                    <p class="pera">Education</p>
-                                </div>
-                                <div class="map flex gap-10">
-                                    <i class="ri-map-pin-line"></i>
-                                    <p class="pera">Africa</p>
-                                </div>
-                            </div>
-                            <div class="overlay-title">
-                                <h4 class="title max-w-567">
-                                    Help differently abled children So
-                                    feel confident
-                                </h4>
-                            </div>
-                        </div>
+                        <img class="w-100 h-100" src="{{ '/assets/images/img/img4.jpg' }}" alt="img">
                     </div>
                 </div>
 
-                <div class="col-xxl-3 col-xl-4 col-lg-4 p-0 xs-p-12">
-                    <div class="image-right-card">
-                        <div class="tab-section tab-section-one" id="tab-section-one">
-                            <div class="counting-day flex gap-10 mb-10">
-                                <i class="ri-time-line"></i>
-                                <p class="pera">652 Days Remaining</p>
-                            </div>
-                            <div>
-                                <h4 class="title">The Universal Hands-free lighting Solution</h4>
-                            </div>
-                            <div>
-                                <p class="subtitle">Fund programs that help children escape poverty by providing
-                                    vocational training.</p>
-                            </div>
-                            <div class="progress custom-progress">
-                                <div class="progress-bar" style="width: 65%">
-                                    <p class="pera">65%</p>
-                                </div>
-                            </div>
-                            <div class="flex justify-content-between mt-8">
-                                <div class="charges">
-                                    <h4 class="title">Goals</h4>
-                                    <p class="pera">$15.000</p>
-                                </div>
-                                <div class="charges">
-                                    <h4 class="title">Raised</h4>
-                                    <p class="pera">$15.000</p>
-                                </div>
-                                <div class="forward-btn">
-                                    <i class="ri-reply-fill"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-section tab-section-two" id="tab-section-two">
-                            <div class="counting-day flex gap-10 mb-10">
-                                <i class="ri-time-line"></i>
-                                <p class="pera">652 Days Remaining</p>
-                            </div>
-                            <div>
-                                <h4 class="title">The Universal Hands-free lighting Solution</h4>
-                            </div>
-                            <div>
-                                <p class="subtitle">Fund programs that help children escape poverty by providing
-                                    vocational training.</p>
-                            </div>
-                            <div class="progress custom-progress">
-                                <div class="progress-bar" style="width: 25%">
-                                    <p class="pera">25%</p>
-                                </div>
-                            </div>
-                            <div class="flex justify-content-between mt-8">
-                                <div class="charges">
-                                    <h4 class="title">Goals</h4>
-                                    <p class="pera">$15.000</p>
-                                </div>
-                                <div class="charges">
-                                    <h4 class="title">Raised</h4>
-                                    <p class="pera">$15.000</p>
-                                </div>
-                                <div class="forward-btn">
-                                    <i class="ri-reply-fill"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex justify-content-center mt-30">
-                            <div class="tab-btn">
-                                <a href="javascript:void(0)" class="urgent-tab active"
-                                    data-tab-id="tab-section-one">Donate</a>
-                                <a href="javascript:void(0)" class="urgent-tab"
-                                    data-tab-id="tab-section-two">Details</a>
-                            </div>
-                        </div>
 
-                        <!-- Your tab sections remain the same -->
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -327,7 +173,8 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <img class="w-100 d-none d-lg-block tilt-effect" src="assets/images/gallery/que.png" alt="image">
+                    <img class="w-100 d-none d-lg-block tilt-effect" src="{{ '/assets/images/img/img5.jpg' }}"
+                        alt="img">
                 </div>
             </div>
         </div>
@@ -341,8 +188,8 @@
                 <div class="col-xl-7">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-50">
-                        <span class="sub-tittle text-capitalize font-600">Our event</span>
-                        <h2 class="title font-700">Our Upcoming Events</h2>
+                        <span class="sub-tittle text-capitalize font-600">Futues Evenements</span>
+                        <h2 class="title font-700">Nos Prochains Evenements</h2>
                     </div>
                 </div>
             </div>
@@ -440,8 +287,8 @@
                 <div class="col-xl-7">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-50">
-                        <span class="sub-tittle text-capitalize font-600">Testimonials</span>
-                        <h2 class="title font-700">What People Say</h2>
+                        <span class="sub-tittle text-capitalize font-600">Témoignages</span>
+                        <h2 class="title font-700">Ce que disent nos bénéficiaires</h2>
                     </div>
                 </div>
             </div>

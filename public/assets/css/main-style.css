@@ -20,9 +20,9 @@
   --dark: #28292c;
   --info: #0dcaf0;
   --body: #fff;
-  --primary:#00715D;
-  --primary-light:#00503f;
-  --primary-deep:#005a4a;
+  --primary:#0dcaf0;
+  --primary-light:#0dcaf0;
+  --primary-deep:#0dcaf0;
   --secondary:#FFD502;
   --secondary-light:#d6b200;
   --tertiary:#F0783C;
@@ -41,7 +41,7 @@
   --primary-paragraph:#666666;
   --secondary-paragraph:#333333;
   --tertiary-paragraph:#787787;
-  --primary-btn:#00715D;
+  --primary-btn:#0dcaf0;
   --secondary-btn:#FFD502;
   --tertiary-btn:#090E0D;
   --ratting-color:#FFB840;
@@ -74,13 +74,13 @@
   --helpful-card-bg-three: #B6F1FF;
   --helpful-card-bg-four: #FFD0B6;
   --helpful-card-icon-one: #FFD502;
-  --helpful-card-icon-two: #63D044;
+  --helpful-card-icon-two: #0dcaf0;
   --helpful-card-icon-three: #30CBF1;
   --helpful-card-icon-four: #FE7B21;
   --number-one: #eaf3f2;
   --number-two: #F1F2F3;
-  --number-one-hover: #157d6a;
-  --number-two-hover: #097E6A;
+  --number-one-hover: #0dcaf0;
+  --number-two-hover: #0dcaf0;
 }
 
 /*-- Margin Padding --*/
@@ -12445,8 +12445,8 @@
 }
 
 /*---------------------------------------------
-    Background-color Makes CSS Class 
-    @each <variable> in <expression> { ... } 
+    Background-color Makes CSS Class
+    @each <variable> in <expression> { ... }
 -----------------------------------------------*/
 .bg-primary {
   background-color: var(--primary) !important;

@@ -141,8 +141,10 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">When deciding which charity to donate to, it's important to
-                                    do your search.</div>
+                                <div class="accordion-body">Nous nous efforçons de garantir que tous les jeunes,
+                                    indépendamment de leur situation socio-économique, ont accès à une
+                                    éducation de base solide et à des formations professionnelles adaptées aux besoins
+                                    du marché du travail.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -416,5 +418,6 @@
     </div> --}}
     <!-- End-of Gallery -->
 </main>
+
 
 @endsection
